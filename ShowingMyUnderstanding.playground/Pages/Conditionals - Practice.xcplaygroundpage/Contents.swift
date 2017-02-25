@@ -1,19 +1,17 @@
 /*:
  [Previous](@previous) / [Next](@next)
  
- # Iteration - Practice
+ # Conditionals - Practice
  
- How can loops be used to make a program more effient?
+ How can conditionals be used to create output?
  
- How can loops be used to create an interesting image from repeated patterns?
+ Create an image where the characteristics depend on the result of the random number generation.
  
- Here is an example image:
+ When the random number is 0, the fill for the shape is empty.
  
- ![tire-tracks](tire-tracks.png "Tire Tracks")
+ When the random number is 1, the fill for the shape is black.
  
  Try creating this image for practice.
- 
- You should only require 6 lines of code at most to produce the image.
  
  ## Remember
  
@@ -29,8 +27,10 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
+// Generate a random number
+let number = random(from: 0, toButNotIncluding: 2)
 
+// Replace this comment and add your code below...
 
 /*:
  ## Template code
